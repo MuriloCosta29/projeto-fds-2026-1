@@ -1,6 +1,6 @@
 # Cesar School Status 
 
-*Um painel de transparência elegante e definitivo para a infraestrutura acadêmica da Cesar School.*
+*Plataforma de monitoramento em tempo real para acompanhar a disponibilidade dos sistemas acadêmicos da Cesar School.*
 
 ---
 
