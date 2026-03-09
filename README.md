@@ -25,3 +25,22 @@ O *Cesar School Status* é uma aplicação web desenvolvida para monitorar e com
 
 **Disciplina:** Fundamentos do Desenvolvimento de Software (FDS)  
 **Professor:** Maurício da Motta Braga
+
+---
+
+## Histórias Usando BDD
+https://docs.google.com/document/d/1yLYbp5KL1Ax2EQpBs_EB21WhbjQOc-myWcVmXJJE8rs/edit?usp=sharing
+
+---
+
+## Backlog JIRA
+<img width="1846" height="370" alt="image" src="https://github.com/user-attachments/assets/98b377ba-57a2-458f-8f2e-8f27ee827596" />
+
+---
+
+## Projetos Lo-Fi
+https://www.figma.com/design/f9finWkb6zvBDSkksVYcpd/Prot%C3%B3tipo-Lo-Fi-Cesar-Scool-Status?node-id=0-1&p=f&t=NQZeaorf1CN2IcHn-0
+
+--- 
+
+## Histórias no Youtube
