@@ -120,10 +120,7 @@ No final, a gente sabe que usar pair programming de forma mais estruturada poder
 ---
 
 ### Bug/issues
-
----
-
-### Deploy (Feita no Render)
+<img width="1259" height="307" alt="Captura de tela 2026-04-26 161630" src="https://github.com/user-attachments/assets/8a913d52-a02f-4ea7-96d1-bc62cd7d1315" />
 
 ---
 ## Testes de Sistema (E2E) Automatizados
@@ -133,7 +130,9 @@ No final, a gente sabe que usar pair programming de forma mais estruturada poder
 ### Pair programming
 <details>
 <summary>Saiba Mais</summary>
+Nesta etapa do projeto, não foi possível aplicar a programação em pares com todo o grupo devido à dificuldade de conciliar os horários dos cinco integrantes. O conflito de agendas impediu sessões coletivas estruturadas, conforme planejado inicialmente.
 
+Ainda assim, a prática não foi abandonada: Milton e Marcos conseguiram se organizar para trabalhar em par, assumindo a responsabilidade de complementar e finalizar as histórias de usuário da Entrega 3.
 </details>
 </details>
 
