@@ -142,3 +142,38 @@ Ainda assim, a prática não foi abandonada: Milton e Marcos conseguiram se orga
 </details>
 
 ---
+
+<details>
+<summary>ENTREGA 04</summary>
+
+## Jira
+
+### Sprint 04
+
+---
+
+### Quadro Jira
+
+---
+### CI/CD
+
+
+---
+## Testes de Sistema (E2E) Automatizados
+
+
+--- 
+
+### Bug/issues
+
+---
+
+### Pair programming
+<details>
+<summary>Saiba Mais</summary>
+
+</details>
+</details>
+
+---
+
