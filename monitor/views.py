@@ -1,13 +1,39 @@
+from datetime import timedelta
+from django.utils import timezone
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from .models import Incidente
 
+def calcular_uptime_sistema(sistema, dias=30):
+    agora = timezone.now()
+    inicio = agora - timedelta(days=dias)
+
+    incidentes = Incidente.objects.filter(
+        sistema=sistema,
+        data_criacao__gte=inicio
+    ).exclude(status='Funcionando')
+
+    total_periodo = (agora - inicio).total_seconds()
+    tempo_indisponivel = 0
+
+    for incidente in incidentes:
+        fim = incidente.data_atualizacao if incidente.resolvido else agora
+        comeco = max(incidente.data_criacao, inicio)
+        tempo_indisponivel += (fim - comeco).total_seconds()
+
+    uptime = ((total_periodo - tempo_indisponivel) / total_periodo) * 100
+    return round(max(0, uptime), 2)
+
 
 @login_required(login_url='/login/')
 def index(request):
     incidentes = Incidente.objects.filter(resolvido=False).order_by('-data_criacao')
+
+    for incidente in incidentes:
+        incidente.uptime = calcular_uptime_sistema(incidente.sistema)
+
     return render(request, 'monitor/index.html', {'incidentes': incidentes})
 
 
