@@ -31,9 +31,9 @@ jobs:
         DEBUG: 'True'
       run: python manage.py test
     
-  #deploy:
-    #needs: build
-    #runs-on: ubuntu-latest
-    #steps:
-      #- name: Deploy to Render
-        #run: curl ${{}} falta o deploy hook
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Render
+        run: curl ${{}} 
