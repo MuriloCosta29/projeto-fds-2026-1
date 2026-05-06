@@ -6,3 +6,6 @@ db.sqlite3
 .venv
 .env
 build.sh
+
+pyrightconfig.json
+
