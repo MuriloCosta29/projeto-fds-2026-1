@@ -29,6 +29,7 @@ jobs:
       env:
         SECRET_KEY: 'ci-fake-secret-key'
         DEBUG: 'True'
+        DATABASE_URL: 'sqlite:///db.sqlite3'
       run: python manage.py test
     
   deploy:
