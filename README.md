@@ -168,7 +168,8 @@ Ainda assim, a prática não foi abandonada: Milton e Marcos conseguiram se orga
 
 ### Bug/issues
 Como tínhamos apenas duas histórias e elas foram desenvolvidas em programação em par, a dupla Murilo e Arthur concluiu ambas sem nenhuma issue ou bug durante o desenvolvimento.
-![Uploading image.png…]()
+<img width="1259" height="283" alt="image" src="https://github.com/user-attachments/assets/c34b14dc-cd67-4e38-b2ac-cd3920bc1092" />
+
 
 ---
 
