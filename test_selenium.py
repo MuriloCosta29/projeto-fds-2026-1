@@ -91,10 +91,7 @@ class SCRUM19_VisualizarStatusSistemas(StaticLiveServerTestCase):
         time.sleep(1)
         self.browser.find_element(By.NAME, CAMPO_SENHA).send_keys("senha_aluno_123")
         time.sleep(1)
-        clicar(
-            self.browser,
-            self.browser.find_element(By.CSS_SELECTOR, ".rodape button[type='submit']")
-        )
+        clicar(self.browser, self.browser.find_element(By.CSS_SELECTOR, BOTAO_SUBMIT))
         time.sleep(2)
 
     def test_aluno_visualiza_status_na_home(self):
@@ -418,7 +415,7 @@ class SCRUM_Historia1_RegistrarIncidente(StaticLiveServerTestCase):
             "Sistema com lentidão desde as 14h."
         )
         time.sleep(1)
-        clicar(self.browser, self.browser.find_element(By.CSS_SELECTOR, BOTAO_SUBMIT))
+        clicar(self.browser, self.browser.find_element(By.CSS_SELECTOR, BOTAO_ENVIAR_FORM))
         time.sleep(2)
         self.assertIn(URL_HOME, self.browser.current_url)
         corpo = self.browser.find_element(By.TAG_NAME, "body").text
@@ -442,7 +439,7 @@ class SCRUM_Historia1_RegistrarIncidente(StaticLiveServerTestCase):
             "Portal completamente fora do ar."
         )
         time.sleep(1)
-        clicar(self.browser, self.browser.find_element(By.CSS_SELECTOR, BOTAO_SUBMIT))
+        clicar(self.browser, self.browser.find_element(By.CSS_SELECTOR, BOTAO_ENVIAR_FORM))
         time.sleep(2)
         pontos_vermelhos = self.browser.find_elements(
             By.CSS_SELECTOR, ".ponto.vermelho"
