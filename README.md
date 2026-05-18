@@ -164,7 +164,9 @@ https://youtu.be/xSuCA_Q9InU
 ## Testes de Sistema (E2E) Automatizados
 https://youtu.be/D_SNWDQV5p8
 
---- 
+---
+## Novas implementações de histórias
+https://youtu.be/4WPpzXvrDlQ
 
 ### Bug/issues
 Como tínhamos apenas duas histórias e elas foram desenvolvidas em programação em par, a dupla Murilo e Arthur concluiu ambas sem nenhuma issue ou bug durante o desenvolvimento.
