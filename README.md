@@ -158,11 +158,11 @@ Ainda assim, a prática não foi abandonada: Milton e Marcos conseguiram se orga
 
 ---
 ### CI/CD
-
+https://youtu.be/xSuCA_Q9InU
 
 ---
 ## Testes de Sistema (E2E) Automatizados
-
+https://youtu.be/D_SNWDQV5p8
 
 --- 
 
